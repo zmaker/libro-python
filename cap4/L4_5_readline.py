@@ -1,0 +1,7 @@
+testo = open("testo.txt")
+L1 = testo.readline()
+print("linea 1: ",L1)
+L2 = testo.readline()
+print("linea 2: ", L2)
+testo.close()
+print("fine")
